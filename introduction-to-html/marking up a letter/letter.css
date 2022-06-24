@@ -1,0 +1,34 @@
+.address1{
+    text-align: right;
+}
+
+.address2{
+    text-align: left;
+    margin-top: 50px;
+}
+
+body{
+    text-transform: capitalize;
+    padding: 300px;
+    width: 940px;
+    text-align: justify;
+}
+
+p{
+    font-size: larger;
+    
+}
+h1{
+    font-size: xx-large;
+}
+
+.abbr2, .abbr3{
+    font-weight: bolder;
+}
+
+footer{
+    font-weight: bolder;
+}
+dt,dd{
+    font-weight: 445;
+}
