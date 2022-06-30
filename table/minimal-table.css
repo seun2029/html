@@ -1,0 +1,31 @@
+tr:nth-child(even) td{
+    background-color: rgb(red, green, blue);
+}
+
+td{
+    text-align: center;
+    
+}
+
+td,th{
+    border: 1px solid rgb(red, green, blue);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-image-outset: 0ch;
+    border-image-slice: 100%;
+}
+
+
+html{
+    font-family: sans-serif;
+}
+
+tr,table, td, th{
+    border-collapse: collapse;
+    border-radius: 1px;
+    border: solid rgb(128, 128, 128) 1px;
+    letter-spacing: 1px;
+}
