@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+</head>
+<style>
+main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    grid-template-areas:"a a a b c"
+                        "f f e d c"
+                        "j j k k c"
+                        "p o o o c " ;
+    gap: 1em;                    
+}
+
+section:nth-of-type(1){
+    grid-area: a;
+}
+
+section:nth-of-type(2){
+    grid-area: b;    
+}
+
+section:nth-of-type(3){
+    grid-area: c;
+}
+
+section:nth-of-type(4){
+    grid-area: d;
+}
+
+section:nth-of-type(5){
+    grid-area: e;
+}
+
+section:nth-of-type(6){
+    grid-area: f;
+}
+
+section:nth-of-type(7){
+    grid-area: j;
+}
+
+section:nth-of-type(8){
+    grid-area: k;
+}
+
+section:nth-of-type(9){
+    grid-area: p;
+}
+
+section:nth-of-type(10){
+    grid-area: o;
+}
+
+section{
+    background-color: aqua;
+    /* height: 300px; */
+    
+}
+</style>
+<body>
+    <main>
+        <section>
+            <h1>sport</h1>
+          <!-- <img src="./chelsea.png" alt=""> -->
+          <!-- <img src="./man city.png" alt=""> -->
+          <img src="./man u.png" alt="">
+          <!-- <img src="./westham.png" alt="">  -->
+        </section>
+
+        <section>
+            <h1>music</h1>
+         <img src="./burna boy.jfif" alt="">
+
+        </section>
+
+        <section>
+            <h1>trade</h1>
+            <img src="./trade.jfif" alt=""> 
+
+        </section>  
+
+        <section>lorem</section>
+        <section>lorem</section>
+        <section>lorem</section>
+        <section>lorem</section>
+        <section>lorem</section>
+        <section>lorem</section>
+        <section>lorem</section>
+    </main>
+</body>
+</html>

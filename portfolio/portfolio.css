@@ -1,0 +1,304 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 176, 236);
+}
+
+main{
+    width: 90%;
+    /* background:linear-gradient(rgb(216, 192, 192)), (rgb(32, 30, 30)) */
+    background-color: rgb(248, 237, 237);
+    margin-left: 200px;
+    border-radius: 60px;
+}  
+
+.header{
+    width: 1500px;
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+nav{
+    justify-content: space-between;
+    
+}
+
+.header .nav-link .ul1{
+    display: flex;
+    text-align: center;
+    top: 10px;
+    margin-left: 700px;
+    padding: 0px 0px;
+}
+
+.nav-link .ul1 li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    font-size: 20px;
+    
+}
+
+.nav-link a{
+    color: black;
+    text-decoration: none;
+}
+
+.header .nav-link .icon{
+    text-align: right;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+@media(max-width: 700px){
+    .nav-link .ul1 li{
+        display: block;
+        flex-direction: column;
+    }
+    .nav-link{
+        position: absolute;
+        background: red;
+        height: 100px;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+}
+
+/*------sec1---*/
+
+.sec1{
+    width: 40%;
+    padding: 100px;
+    text-align: center;
+    top: 50px;
+    background-image: url(./paint\ pin.jpg);
+    margin-left: 600px; 
+    
+    
+}
+
+.sec1 .ul2{
+    display: flex;
+    text-align: right;
+    top: 10px;
+    padding: 0px 10px;
+    padding-top: 100px;
+
+
+}
+
+.sec1 .ul2 li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+ .sec1 .ul2 .li1{
+    /* border: 1px solid black; */
+    background-color: black;
+    color: white;
+    margin-right: 50px;
+    border-radius: 10px;
+    
+}
+
+.ul2 .li2{
+    border: 5px solid darkorange;
+    background-color: darkorange;
+    border-radius: 10px;
+
+}
+
+.sec1 .ul2 .li1 a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.sec1 .ul2 .li2 a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.sec1 .p1{
+    font-size: 20px;
+}
+ aside{
+    text-align: left;
+    margin-left: 550px;
+    position: relative;
+    }
+    #twitter{
+        color: darkcyan;
+    }
+    #facbook{
+        color: blue;
+    }
+    #pin{
+        color: red;
+    }
+
+    /*-------sec2------*/
+.sec2{
+    width: 60%;
+    padding: 0 100px 0 100px;
+    text-align: center;
+    top: 50px;
+    background-color: black;
+    margin-left: 300px; 
+    
+    }
+
+    .sec2 div{
+        display: flex;
+        text-align: right;
+        /* top: 20px; */
+        padding: 30px;
+        margin-left: 90px;
+        padding-top: 10px;
+        ;
+        
+    }
+
+    @media(max-width: 700px){
+        .sec2 div{
+            flex-direction: column;
+        }
+    }
+
+    .sec2 div .califonia{
+    
+    
+    position: relative;
+    font-size: 20px;
+    height: 100px;
+    
+    
+}
+
+    .sec2 div .califonia h2{
+        color: white;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        font-size: auto;
+        }
+
+        .sec2 div .califonia .ul3 li{
+          color: white; 
+          list-style: none;
+           
+        }
+
+
+        /*----------sec3--------*/
+
+        .sec3{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h3{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .p2{
+            color: black;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 20px;
+            padding: 10px;
+        }
+
+        .row{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-evenly;
+            
+            
+            
+        }
+
+        .col{
+            flex-basis: 25%;
+            background-color: white;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 0.5s;
+            border: 1px solid black;
+        }
+
+        .col h2{
+            text-align: center;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        .col p{
+            font-size: 20px;
+        }
+
+        .row2{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-evenly; 
+        }
+
+        .col2{
+            flex-basis: 25%;
+            background-color: rgb(250, 243, 243);
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 0.5s;
+            border: 1px solid black;
+        }
+        .col2 p {
+            font-size: 20px;
+        }
+
+        #mobile,#plane,#graphics{
+            background-color: darkorange;
+            border-radius: 50px;
+        }
+
+        #photo,#motion{
+            background-color: darkorange;
+            border-radius: 50px;
+        }
+
+        #animation{
+            background-color: darkorange;
+            border-radius: 50px;
+        }
+
+        @media(max-width: 700){
+            .row{
+                flex-direction: column;
+            }
+        }
+
+        @media(max-width: 700){
+            .row2{
+                flex-direction: column;
+            }
+        }
+
+
+
+ 
